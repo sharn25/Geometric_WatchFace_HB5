@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<providers>
+    <TemplateWatch dpi="120">
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage y="0" offset_distance_y="0" label="layer 14 - BG" res_dir_id="A013" x="0" type="static" data_type="DATA_BACKGROUND" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="0"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="61" number_of_digits="0" offset_distance_y="0" label="layer 13 - Hour_High" res_dir_id="A012" x="31" type="static" data_type="DATA_HOUR_HIGH" align="DIGIT_ALIGN_CENTER_CENTER" filter_color="65535"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="61" number_of_digits="0" offset_distance_y="0" label="layer 12 - Hour_Low" res_dir_id="A011" x="52" type="static" data_type="DATA_HOUR_LOW" align="DIGIT_ALIGN_CENTER_CENTER" filter_color="65535"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="111" number_of_digits="0" offset_distance_y="0" label="layer 11 - Mintue_High" res_dir_id="A010" x="72" type="static" data_type="DATA_MINITE_HIGH" align="DIGIT_ALIGN_CENTER_CENTER" filter_color="65535"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="111" number_of_digits="0" offset_distance_y="0" label="layer 10 - Mintue_Low" res_dir_id="A009" x="93" type="static" data_type="DATA_MINITE_LOW" align="DIGIT_ALIGN_CENTER_CENTER" filter_color="65535"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage y="62" offset_distance_y="0" label="layer 9 - am_pm" res_dir_id="A008" x="63" type="static" data_type="DATA_AMPM" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="65535"/>
+        </Widget>
+        <Widget widget_type="MUTILLANGUAGE">
+            <MutilLanguage single_language_img_num="7" support_languages="en" y="86" label="layer 8 - Week" default_language="en" res_dir_id="A007" x="63" type="static" data_type="DATA_WEEK" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="65535"/>
+        </Widget>
+        <Widget widget_type="MUTILLANGUAGE">
+            <MutilLanguage single_language_img_num="7" support_languages="en" y="113" label="layer 7 - Month" default_language="en" res_dir_id="A006" x="57" type="static" data_type="DATA_MONTH_EN" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="65535"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="137" number_of_digits="0" offset_distance_y="0" label="layer 6 - Date" res_dir_id="A005" x="61" type="static" data_type="DATA_DATE" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="0"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="164" number_of_digits="0" offset_distance_y="0" label="layer 5 - Steps" res_dir_id="A004" x="83" type="static" data_type="DATA_STEPS" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="0"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage y="161" offset_distance_y="0" label="layer 4 - Steps_Icon" res_dir_id="A003" x="99" type="static" data_type="DATA_SEPAR" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="65535"/>
+        </Widget>
+        <Widget widget_type="DIGITALIMAGE">
+            <DigitalImage y="48" number_of_digits="0" offset_distance_y="0" label="layer 3 - Battery" res_dir_id="A002" x="62" type="static" data_type="DATA_BATTERYNUM" align="DIGIT_ALIGN_CENTER_RIGHT" filter_color="0"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage y="48" offset_distance_y="0" label="layer 2 - Battery_precent" res_dir_id="A001" x="62" type="static" data_type="DATA_PERCENT" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="0"/>
+        </Widget>
+        <Widget widget_type="SINGLEIMAGE">
+            <SingleImage y="48" offset_distance_y="0" label="layer 1 - Battery_Icon" res_dir_id="A000" x="23" type="static" data_type="DATA_BATTERY" align="DIGIT_ALIGN_CENTER_LEFT" filter_color="65535"/>
+        </Widget>
+    </TemplateWatch>
+</providers>
